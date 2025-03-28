@@ -1,0 +1,26 @@
+<!-- 4 დავალება  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <h2>Payment Method</h2>
+    <form action="/submit-payment" method="POST">
+        <label>
+            <input type="radio" name="payment" value="cash" required>
+            Cash
+        </label><br>
+        <label>
+            <input type="radio" name="payment" value="card" required>
+            Card
+        </label><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
